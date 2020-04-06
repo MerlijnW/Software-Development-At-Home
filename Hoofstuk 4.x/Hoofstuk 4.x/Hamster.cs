@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hoofstuk_4.x
 {
-    public class Hamster : Huisdier
+    public class Hamster : Huisdier , Graver , Klimmer
     {
         public Hamster(String naam) : base(naam)
         {
@@ -16,7 +16,15 @@ namespace Hoofstuk_4.x
         override
         public void maakGeluid()
         {
-            Console.WriteLine("Woef");
+            Console.WriteLine("Squeek");
+        }
+        public void graaf()
+        {
+            Console.WriteLine("Diggy dig");
+        }
+        public void klim()
+        {
+            Console.WriteLine("klim klim");
         }
     }
 }

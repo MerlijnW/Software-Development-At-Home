@@ -43,10 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dierenwinkel.cs" />
+    <Compile Include="Graver.cs" />
     <Compile Include="Hamster.cs" />
     <Compile Include="Hond.cs" />
     <Compile Include="Huisdier.cs" />
     <Compile Include="Kat.cs" />
+    <Compile Include="Klimmer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

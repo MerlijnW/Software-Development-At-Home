@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hoofstuk_4.x
 {
-    public class Kat : Huisdier
+    public class Kat : Huisdier , Klimmer
     {
         public Kat(String naam) : base(naam)
         {
@@ -21,6 +21,11 @@ namespace Hoofstuk_4.x
         public void maakGeluid()
         {
             Console.WriteLine("Meow");
+        }
+
+        public void klim()
+        {
+            Console.WriteLine("Climby climb");
         }
     }
 }

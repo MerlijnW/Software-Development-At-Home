@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hoofstuk_4.x
 {
-    public class Hond : Huisdier
+    public class Hond : Huisdier , Graver
     {
         public Hond(String naam) : base(naam)
         {
@@ -21,6 +21,11 @@ namespace Hoofstuk_4.x
         public void maakGeluid()
         {
             Console.WriteLine("Woef");
+        }
+
+        public void graaf()
+        {
+            Console.WriteLine("Diggy dig");
         }
     }
 }
